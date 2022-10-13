@@ -1,0 +1,78 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    background-color: #CFFF8D;
+}
+hr{
+    height: 5px;
+    background-color: #425F57;
+    border: none;
+}
+header{
+    height: 250px;
+}
+#baslik, nav{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+#baslik{
+    border-style: solid;
+    /* border-width: 5px;
+    width: 99.4%;
+    height: 20%; */
+    background-color: #749F82;
+    border-radius: 10px;
+    color: #425F57;
+    text-shadow: black 2px 2px;
+}
+nav{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+.navLink{
+    position: relative;
+    top: 5px;
+    color: #425F57;;
+}
+#altBaslik{
+    text-align: center;
+    color: #425F57;
+    position: relative;
+    top: 50px;
+}
+section{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+#urunul{
+    text-align: justify; 
+}
+p{
+    font-size: 25px;
+}
+#urunarticle{
+    font-size: 35px;
+}
+
+.deneme {
+    align-items: center;
+    font-size: 15px;
+}
+.border{
+    border: solid;
+}
+ul{
+    list-style-type: none;
+}
+.linkRenk{
+    color: #425F57;
+    text-decoration: none;
+}
+.linkRenkurun{
+    color: orange;
+    text-decoration: none;
+}
