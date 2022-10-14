@@ -1,0 +1,58 @@
+.border{
+    border: red 1px solid;
+}
+#container{
+    height: 300px;
+    width: 90%;
+    margin: auto; 
+    /* background-color: brown; */
+}
+#image{
+    text-align: center;
+    background-color: white;
+}
+#arama{
+    height: 65px;
+    text-align: center;
+    background-color: rgb(238,238,238);
+}
+form>input[type="text"]{
+    width: 309px;
+}
+#ilkkisim{
+   background-color: rgb(126,229,218);
+   float: left;
+   width: 36%;
+   height: 80px;
+   text-align: center;
+   border: 1px solid white;
+}
+#ikincikisim{
+   background-color: rgb(112,204,194);
+   float: left;
+   width: 20%;
+   height: 68px;
+   text-align: center;
+   font-size: 12px;
+   padding-top: 12px;
+   border: 1px solid white;
+}
+#ucuncukisim{
+   background-color: rgb(98,179,170);
+   float: left;
+   width: 43.5%;
+   height: 80px;
+   text-align: center;
+   border: 1px solid white;
+}
+#icerik{
+    float: left;
+}
+.archivetext{
+    font-size: 13px;
+}
+footer>p{
+    text-align: center;
+    font-size: 13px;
+    padding-top: 90px;
+}
