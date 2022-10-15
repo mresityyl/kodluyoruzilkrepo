@@ -1,0 +1,171 @@
+.border{
+    border: black 1px solid;
+}
+.border-red{
+    border: red 1px solid;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 2%;
+}
+
+.nav-links-left{
+    display: flex;
+    column-gap: 20px;
+}
+
+.nav-links-right{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+nav div a{
+    text-decoration: none;
+}
+
+#app-resmi{
+    height: 20px; 
+    /* fill: red;
+    color: blue; */
+}
+
+#profil-resmi{
+    height: 30px;
+}
+
+/****** İÇERİK ****************************/
+
+section{
+    width: 100%;
+    height: 80vh;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+}
+/* section div{
+    display: flex;
+    align-items: center;
+} */
+
+section #google-logo{
+    /* position: absolute;
+    left: 50vw;
+    right: 50vw; */
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+section #search-buttons{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+section #search-buttons input[type="text"]{
+    width: 580px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px grey solid;
+    position: relative;
+    top: 28px;
+
+    -webkit-box-shadow: 0px 5px 24px -9px rgba(128,128,128,0.7);
+    -moz-box-shadow: 0px 5px 24px -9px rgba(128,128,128,0.7);
+    box-shadow: 0px 5px 24px -9px rgba(128,128,128,0.7);
+
+        /* background-image: url(img/voicelogo.png);
+        background-repeat: no-repeat;    */
+
+    color: black;
+    font-size: 17px;
+}
+
+section #search-buttons input{
+    position: relative;
+    top: 40px;
+    right: 5px;
+    width: 130px;
+    height: 35px;
+    border: grey;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section #search-buttons input:hover{
+    border: rgb(95, 95, 95) 1px solid;
+    -webkit-box-shadow: 0px 4px 22px -10px #000000; 
+    box-shadow: 0px 4px 22px -10px #000000;
+}
+
+#voice{
+    position: relative;
+    top: 40px;
+    right: 45px;
+    width: 35px;
+}
+
+#ara{
+    width: 25px;
+    color: gray;
+    position: relative;
+    left: 40px;
+    top: 36px;
+    z-index: 1;
+}
+
+/**** FOOTER ************************************/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 84px;
+    text-align: end;
+    background-color: #f2f2f2;
+}
+
+footer .footer-left-links{
+    display: flex;
+    column-gap: 30px;
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+footer .footer-right-links{
+    display: flex;
+    column-gap: 30px;
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+footer .footer-links a{
+    text-decoration: none;
+}
+
+footer .footer-links a:hover{
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
